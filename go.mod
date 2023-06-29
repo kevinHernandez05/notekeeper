@@ -15,6 +15,7 @@ require (
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.19 // indirect
 	github.com/mattn/go-runewidth v0.0.14 // indirect
+	github.com/mattn/go-sqlite3 v1.14.17 // indirect
 	github.com/philhofer/fwd v1.1.2 // indirect
 	github.com/rivo/uniseg v0.2.0 // indirect
 	github.com/savsgio/dictpool v0.0.0-20221023140959-7bf2e61cea94 // indirect
@@ -27,5 +28,6 @@ require (
 	golang.org/x/sys v0.9.0 // indirect
 	golang.org/x/text v0.10.0 // indirect
 	gorm.io/driver/postgres v1.5.2 // indirect
-	gorm.io/gorm v1.25.1 // indirect
+	gorm.io/driver/sqlite v1.5.2 // indirect
+	gorm.io/gorm v1.25.2-0.20230530020048-26663ab9bf55 // indirect
 )
