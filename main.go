@@ -32,10 +32,18 @@ func initDatabase() {
 }
 
 func setRoutes(app *fiber.App) {
+	//get all
 	app.Get("/api/v1/notes", models.GetNotes)
-	app.Get("/", helloWorld)
-	// app.Get("/api/v1/notes/:id", models.GetNote)
-	// app.Post("/api/v1/notes", models.NewNote)
+	
+	//create
+	app.Post("/api/v1/notes", models.CreateNotes)
+	
+	//get by id
+	app.Get("/api/v1/notes/:id", models.GetNoteById)
+	
+	//update
+
+	//delete
 	// app.Delete("/api/v1/notes/:id", models.DeleteNote)
 }
 
